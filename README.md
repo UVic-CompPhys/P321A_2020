@@ -1,2 +1,22 @@
-# P321A_2020
-Tutorial Python notebooks with numerical problems for UVic course PHYS 321A
+# Physics 321A tutorials on solving numerical problems (Fall 2020)
+
+``https://github.com/UVic-CompPhys/P321A_2020`` is a ``github`` public repository with UVic PHYS 321A python notebook tutorials. A tutorial is a python notebook that first formulates a numerical problem assigned to solve in next two weeks and then describes and solves another numerical problem similar to that formulated in the assignment. The tutorial notebook gives ideas how the assigned numerical problem can be solved with Python programming. It can be copied and used as a template for the numerical solution of the assignment problem. 
+
+Here are basic instructions on how to work with numerical assignments:
+
+1. Preferably, use the **Google Chrome** internet browser.
+2. In the browser, go to the web site ``uvic.syzygy.ca`` and begin with reading its tutorial (click the link at the top right corner).
+3. After getting acquainted with this tool, sign in (also at the top right corner of the starting page) using your UVic credentials, and you will access your ``jupyterhub`` server.
+4. At the top right corner of the opened notebook click ``New`` and then select ``Terminal``, which will open an additional black screen where you can execute ``linux`` commands, e.g. ``ls`` that will show a list of your directories and files (probably none at the first time).
+5. Go to the site ``github.com`` and register there if you have not done this before.
+6. After your registration at ``github.com`` execute the following command on the linux terminal (black screen): ``git clone https://github.com/UVic-CompPhys/P321A_2020.git``. It will clone to your server the github repository
+where both the tutorial notebooks (files with the extension ``.ipynb``) and pdf files with the solutions of numerical assignment problems will be added during the course. This ``README.pdf`` file is also in the repository.
+7. If you now go back to the ``jupyterhub`` server window you will see the cloned directory ``P321A_2020``. Enter it and then click the first tutorial notebook ``P321A_Tutorial_1.ipynb``. Read it, including all comments, i.e. the text that starts with ``#``, and try to execute it by clicking ``Kernel`` and selecting ``Restart & Run All``. Check that there are no error messages after the notebook execution.
+8. A tutorial notebook can be copied by clicking ``File`` and then selecting ``Make a Copy...``. After that click ``File`` again and now select ``Rename...`` to rename the copy. It's a good idea to include in the new name the number of the assignment and your last name, like ``Assignment_1_Pavel_Denisenkov.ipynb``.
+9. Of course, if you are proficient enough in ``Python``, you are welcome to prepare your solution python notebook from scratch, clicking ``New`` and then selecting ``Python 3``.
+10. When a notebook with your solution of an assigned numerical problem is ready, you have to check, by clicking ``Kernel`` and selecting ``Restart & Run All``, that it can be executed from the beginning to the end without any error messages. After that, click ``File`` followed by ``Download as`` and ``PDF via LaTeX (.pdf)``, which will make a copy of your notebook in the pdf format on your own computer. Check that all text, comments, python commands and printed results in your notebook's pdf file fit text boxes and, if they don't, break them into shorter pieces and try to make another pdf file. **Remember:** it's your responsibility that the python notebook solution in your pdf file is clearly read and all figures are seen by the instructor.
+11. Finally, submit the pdf file with your python notebook solution of the numerical assignment via the Physics 321A course web page. Be sure that your submission has both the assignment number and your last name. The latest submission time is the midnight at the end of the deadline day. 
+12. Only if, by some reason, you cannot make a pdf file from your notebook, submit the notebook itself (a file with extension ``.ipynb``). 
+13. If you have any questions about the solution of numerical problems or you stuck with your work, don't hesitate to ask the tutor for help via his email ``pavelden@uvic.ca``.
+14. The tutor, Pavel Denisenkov, will be available to answer your questions via the Zoom link provided at the course web site every Friday.
+Every other Friday, the tutor will present you a next numerical problem. 
